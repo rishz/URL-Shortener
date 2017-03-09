@@ -13,10 +13,8 @@ Great tool for shortening a long URL to just 4 characters.
 
 ## Features
 
-* Add
-* Multiply
-* Subtract
-* Divide
+* Shorten a Long URL using the web app.
+* Gets saved in Firebase database for quick access
 
 ## Built With
 
