@@ -6,9 +6,15 @@ const hasha = require("hasha");
 
 module.exports = {
     shorten: function (url) {
-        if(url=='http://google.com'){
-            return 'xyz';
-        }
+        hash =  hasha(url, {encoding:"base64", algorithm:"md5"});
+        hash = hash.slice(0,4);
+
+        hash = hash.replace('/','-');
+        hash = hash.replace('+','_');
+        // let hashInt = parseInt(hash,16)
+        // conv = atob(hashInt);
+        return hash;
+
     },
     expand: function (shortcode) {
         if(shortcode=='xyz'){
