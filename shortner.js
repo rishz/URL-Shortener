@@ -2,6 +2,7 @@
  * Created by rishabhshukla on 09/03/17.
  */
 var firebase = require('firebase');
+const r = require('convert-radix64');
 
 var config = {
     apiKey: "AIzaSyBAAUCZ8xXzS4r7jxMhlvPB6OzKIC0MRE8",
@@ -23,13 +24,16 @@ module.exports = {
         // conv = atob(hashInt);
 
         hashMap[hash] = url;
-        writeUserData(url,hash);
+        writeUserData(r.from64(hash),hash);
 
         return hash;
 
     },
     expand: function (shortcode) {
-        return hashMap[shortcode];
+        return firebase.database().ref().once(shortcode).then(function(snapshot) {
+            var username = snapshot.val().url;
+        });
+        // return hashMap[shortcode];
     }
 
 };
