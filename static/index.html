@@ -2,15 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="jQuery.js"></script>
+    <script src="jquery.min.js"></script>
 
     <title>URL Shortner</title>
 </head>
 <body>
 
-<input id="url" type="text">
-<button id="generate" type="submit"></button>
-<div id="mydiv"><span id="show"></span></div>
+    <input id="url" type="text" placeholder="Enter URL" name="url">
+    <input id="submit" type="submit">
+    <div id="shortcode"></div>
+
+    <script>
+        $(function () {
+            $('#submit').click(function () {
+                var url = $('#url').val();
+                $.post('/api/v1/shorten', {
+                    url:url
+                },function (data) {
+                    $('#shortcode').html("Short URL: " + '<a href="/' + data + '">'+window.location.href+data + '</a>');
+                })
+            })
+        })
+    </script>
 
 </body>
 </html>

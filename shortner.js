@@ -3,7 +3,7 @@
  */
 
 const hasha = require("hasha");
-
+const hashMap = {};
 module.exports = {
     shorten: function (url) {
         hash =  hasha(url, {encoding:"base64", algorithm:"md5"});
@@ -13,12 +13,13 @@ module.exports = {
         hash = hash.replace('+','_');
         // let hashInt = parseInt(hash,16)
         // conv = atob(hashInt);
+
+        hashMap[hash] = url;
+
         return hash;
 
     },
     expand: function (shortcode) {
-        if(shortcode=='xyz'){
-            return 'http://google.com';
-        }
+        return hashMap[shortcode];
     }
 };
