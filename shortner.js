@@ -40,7 +40,7 @@ module.exports = {
             let username = snapshot.val().url;
 
             console.log("converted value =  "+username);
-            return console.log(hashMap[shortcode]);
+            return hashMap[shortcode];
             // ref.once('value').off();
             //return username;
 
