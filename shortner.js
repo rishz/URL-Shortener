@@ -30,8 +30,9 @@ module.exports = {
 
     },
     expand: function (shortcode) {
-        return firebase.database().ref().once(shortcode).then(function(snapshot) {
+        return firebase.database().ref('shortcode/'+shortcode).once().then(function(snapshot) {
             var username = snapshot.val().url;
+            console.log(username);
         });
         // return hashMap[shortcode];
     }
@@ -39,8 +40,7 @@ module.exports = {
 };
 
 function writeUserData(url,shortcode) {
-    firebase.database().ref().set({
-        url: url,
-        shortcode: shortcode,
+    firebase.database().ref('shortcode/'+shortcode).set({
+        url:url
     });
 }

@@ -22,10 +22,13 @@ app.post('/api/v1/shorten',function (req, res) {
     let url = req.body.url;
     let shortcode = shortner.shorten(url);
     res.send(shortcode);
+
+    // console.log(shortcode)
+
 });
 app.get('/api/v1/expand/:shortcode',function (req, res) {
-    let shortcode = req.body.shortcode;
-    let url = shortner.expand(shortcode);
+    let shortcode = req.body.shortcode;    console.log(shortcode)
+    let url = url.expand(shortcode);
     res.send(url);
 });
 app.listen(4100, function(){

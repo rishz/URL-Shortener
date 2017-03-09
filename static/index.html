@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
 
     <title>URL Shortner</title>
 </head>
@@ -12,18 +13,6 @@
     <input id="submit" type="submit">
     <div id="shortcode"></div>
 
-    <script>
-        $(function () {
-            $('#submit').click(function () {
-                var url = $('#url').val();
-                $.post('/api/v1/shorten', {
-                    url:url
-                },function (data) {
-                    $('#shortcode').html("Short URL: " + '<a href="/' + data + '">'+window.location.href+data + '</a>');
-                })
-            })
-        })
-    </script>
 
 </body>
 </html>
