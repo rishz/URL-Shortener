@@ -22,25 +22,35 @@ module.exports = {
         hash = hash.replace('+','_');
         // let hashInt = parseInt(hash,16)
         // conv = atob(hashInt);
-
         hashMap[hash] = url;
-        writeUserData(r.from64(hash),hash);
+        writeUserData(url,r.from64(hash),hash);
 
         return hash;
 
     },
     expand: function (shortcode) {
-        return firebase.database().ref('shortcode/'+shortcode).once().then(function(snapshot) {
-            var username = snapshot.val().url;
-            console.log(username);
-        });
-        // return hashMap[shortcode];
-    }
+        // return firebase.database().ref('shortcode/'+shortcode).then(function(snapshot) {
+        //     var username = snapshot.val().url;
+        //     console.log(username);
+        // });
 
+        var ref = firebase.database().ref('/'+shortcode);
+
+        ref.once('child_added').then(function(snapshot) {
+            let username = snapshot.val().url;
+
+            console.log("converted value =  "+username);
+            return console.log(hashMap[shortcode]);
+            // ref.once('value').off();
+            //return username;
+
+        });
+    }
 };
 
-function writeUserData(url,shortcode) {
-    firebase.database().ref('shortcode/'+shortcode).set({
+function writeUserData(url,shortcode,code) {
+    firebase.database().ref('/'+shortcode).set({
+        code:code,
         url:url
     });
 }
