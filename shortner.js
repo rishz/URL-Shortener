@@ -1,7 +1,15 @@
 /**
  * Created by rishabhshukla on 09/03/17.
  */
+var firebase = require('firebase');
 
+var config = {
+    apiKey: "AIzaSyBAAUCZ8xXzS4r7jxMhlvPB6OzKIC0MRE8",
+    authDomain: "urlshortner-b1883.firebaseapp.com",
+    databaseURL: "https://urlshortner-b1883.firebaseio.com",
+    storageBucket: "urlshortner-b1883.appspot.com",
+};
+firebase.initializeApp(config);
 const hasha = require("hasha");
 const hashMap = {};
 module.exports = {
@@ -15,6 +23,7 @@ module.exports = {
         // conv = atob(hashInt);
 
         hashMap[hash] = url;
+        writeUserData(url,hash);
 
         return hash;
 
@@ -22,4 +31,12 @@ module.exports = {
     expand: function (shortcode) {
         return hashMap[shortcode];
     }
+
 };
+
+function writeUserData(url,shortcode) {
+    firebase.database().ref().set({
+        url: url,
+        shortcode: shortcode,
+    });
+}

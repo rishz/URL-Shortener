@@ -5,6 +5,7 @@
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
+    "firebase": "^3.7.0",
     "hasha": "^2.2.0"
   },
   "devDependencies": {},
