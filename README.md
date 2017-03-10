@@ -6,6 +6,7 @@ A URL-Shortener created using Node-JS and synced with Firebase Database.
 
 
 ## Demo
+![out](https://cloud.githubusercontent.com/assets/20211622/23782082/be677c3e-0577-11e7-9851-4ceb3fda7367.gif)
 
 ## Why use it?
 
@@ -26,6 +27,8 @@ Great tool for shortening a long URL to just 4 characters.
 * jquery
 
 ## Screenshot
+
+![screens](https://cloud.githubusercontent.com/assets/20211622/23782143/106745a0-0578-11e7-96fb-eda680be53f4.png)
 
 Contributing
 ==========
