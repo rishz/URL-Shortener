@@ -1,6 +1,11 @@
 *{
     align: center;
 }
+#main-div {;
+}
+h1 {
+    font-size: 2em !important;
+}
 #url{
     align: center;
     size: 100px;
@@ -9,8 +14,9 @@
     font-family: Arial;
     font-size: 25px;
     margin-top: 2%;
-    margin-left: 25%;
+    margin-left: 30%;
 }
+
 .btn {
     background: #ffd324;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
@@ -25,7 +31,7 @@
     padding: 10px 20px 10px 20px;
     text-decoration: black;
     margin-top: 2%;
-    margin-left: 43%;
+    margin-left: 45%;
 }
 
 .btn:hover {
