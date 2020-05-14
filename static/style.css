@@ -1,6 +1,9 @@
 *{
     align: center;
 }
+.bg{
+    background-color: aqua;
+}
 #url{
     align: center;
     size: 100px;
