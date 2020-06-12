@@ -41,14 +41,22 @@
 .mydiv{
     align-self: center;
     align-items: center;
-    font-family: "American Typewriter";
+    font-family: "Times New Roman";
     font-size:30px;
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    background image
 
 }
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+}
+
+.bodyP {
+  background-image: url('gradient.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
