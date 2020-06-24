@@ -43,6 +43,7 @@
     align-items: center;
     font-family: "American Typewriter";
     font-size:30px;
+	color:#FFFFFF;
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
@@ -51,4 +52,11 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+}
+.body{
+	
+	background: url(background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
 }
