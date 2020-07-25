@@ -1,3 +1,7 @@
+body{
+    background-color: lightblue;
+}
+
 *{
     align: center;
 }
@@ -26,10 +30,12 @@
     text-decoration: black;
     margin-top: 2%;
     margin-left: 43%;
+    border: none;
 }
 
 .btn:hover {
     background: #3cb0fd;
+    border: none;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
@@ -51,4 +57,6 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+    text-align: center;
+    color: blueviolet;
 }
