@@ -1,15 +1,17 @@
 *{
-    align: center;
+    /* align: center; */
+    padding: 0%;
 }
 #url{
-    align: center;
+    /* align: center; */
     size: 100px;
     height: 50px;
-    width: 600px;
+    width: 716px;
     font-family: Arial;
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    border-radius: 10px;
 }
 .btn {
     background: #ffd324;
@@ -26,6 +28,7 @@
     text-decoration: black;
     margin-top: 2%;
     margin-left: 43%;
+    outline: none;
 }
 
 .btn:hover {
