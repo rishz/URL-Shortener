@@ -1,3 +1,12 @@
+body {
+  background-image: url("https://www.wallpaperflare.com/static/86/28/944/simple-simple-background-primary-colors-minimalism-wallpaper.jpg");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  background-size: cover;
+    height:620px;
+    width: 1341px
+    
+}
 *{
     align: center;
 }
@@ -6,35 +15,37 @@
     size: 100px;
     height: 50px;
     width: 600px;
+    color:blue;
     font-family: Arial;
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    border-radius:10%
 }
 .btn {
-    background: #ffd324;
-    background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
-    background-image: -moz-linear-gradient(top, #ffd324, #fab120);
-    background-image: -ms-linear-gradient(top, #ffd324, #fab120);
-    background-image: -o-linear-gradient(top, #ffd324, #fab120);
-    background-image: linear-gradient(to bottom, #ffd324, #fab120);
+    background:;
+    background-image: -webkit-linear-gradient(top, #ffd324, #fab);
+    background-image: -moz-linear-gradient(top, #ffd324, #fab);
+    background-image: -ms-linear-gradient(top, #ffd324, #fab);
+    background-image: -o-linear-gradient(top, #ffd324, #fab);
+    background-image: linear-gradient(to bottom, #ffd324,);
     border-radius: 15px;
     font-family: sans-serif;
-    color: #ffffff;
+    color:blue;
     font-size: 29px;
     padding: 10px 20px 10px 20px;
     text-decoration: black;
-    margin-top: 2%;
+    margin-top: 10%;
     margin-left: 43%;
 }
 
 .btn:hover {
     background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #fff);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #fff);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #fff);
+    background-image: -o-linear-gradient(top, #3cb0fd, #fff);
+    background-image: linear-gradient(to bottom, #3cb0fd, #fff);
     text-decoration: none;
 }
 
@@ -46,9 +57,14 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
-
 }
 .center{
-    font-family: "American Typewriter";
+    font-family:cursive;
     font-size: 40px;
+    color:blue;
+    text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px red, 0 0 10px #0073e6, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6;
+    text-align-last:center;
+    background-color: aqua;
+    border-radius:100%;
+    box-shadow: 0 0 10px 0 red;
 }
