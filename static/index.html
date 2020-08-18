@@ -10,13 +10,19 @@
 </head>
 <body>
 
-<div class="center">
-    <h1 align="center"> URL Shortener</h1>
-</div>
-    <input id="url" type="text" placeholder="Enter URL" name="url">
-    <br>
-    <input id="submit" type="submit" class="btn">
-    <div id="shortcode" class="mydiv"></div>
+    <form method="post" action="www.google.com" onsubmit="alert('form submitted');" id="form1" name="form1name">
+    <span>Enter Long URL :</span>
+<br />
+<br />
+<input type="text" id="text1" size="60" />
+<br /><br />
+<input type="button" id="button1" value="Get Short URL"/>
+<br /><br />
+<input type="text" id="text2" readonly="readonly" size="60" />
+</form>
+
+
+    
 
 </body>
 </html>

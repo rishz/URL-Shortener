@@ -1,13 +1,20 @@
 /**
- * Created by rishabhshukla on 09/03/17.
+ * Created by Aakash_goyal on 18/08/2020.
  */
-$(function () {
-    $('#submit').click(function () {
-        var url = $('#url').val();
-        $.post('/api/v1/shorten', {
-            url:url
-        },function (data) {
-            $('#shortcode').html("Short URL: " + '<a href="/' + data + '">'+window.location.href+data + '</a>');
-        })
-    })
-})
+$(document).ready(function () {
+    $("#button1").click(function () {
+        $.ajax({
+            type: "POST",
+            url: "/home/GetShortURL",
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            data: '{ "longUrl" : "' + $("#text1").val() + '" }',
+            success: function (results) {
+                $("#text2").val(results);
+            },
+            error: function (err) {
+                alert(err.status + " - " + err.statusText);
+            }
+        });
+    });
+});

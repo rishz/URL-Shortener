@@ -9,6 +9,7 @@
     "firebase": "^3.7.0",
     "hasha": "^2.2.0"
   },
+  "private": true,
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -26,3 +27,7 @@
   "homepage": "https://github.com/rishz/URL-Shortener#readme",
   "description": ""
 }
+
+
+  
+ 

@@ -1,6 +1,13 @@
 *{
     align: center;
 }
+
+body {
+
+    background-color:#FFFFFF;
+  
+  }
+  
 #url{
     align: center;
     size: 100px;
@@ -46,6 +53,8 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    background-color:	#696969;
+    width: fit-content;
 
 }
 .center{
