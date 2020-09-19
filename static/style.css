@@ -1,5 +1,21 @@
 *{
     align: center;
+    background-color: #24252A;
+}
+header{
+    
+    padding: 10px 10%;
+}
+.open_text{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+.open_text:hover{
+    color: #FA8072; 
 }
 #url{
     align: center;
@@ -10,6 +26,7 @@
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    background-color: rgba(255,255,255,1);
 }
 .btn {
     background: #ffd324;
@@ -18,7 +35,7 @@
     background-image: -ms-linear-gradient(top, #ffd324, #fab120);
     background-image: -o-linear-gradient(top, #ffd324, #fab120);
     background-image: linear-gradient(to bottom, #ffd324, #fab120);
-    border-radius: 15px;
+    border-radius: 50px;
     font-family: sans-serif;
     color: #ffffff;
     font-size: 29px;
@@ -26,6 +43,7 @@
     text-decoration: black;
     margin-top: 2%;
     margin-left: 43%;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -46,9 +64,11 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    color: #ecf0f1;
 
 }
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+    color: #ecf0f1;
 }
