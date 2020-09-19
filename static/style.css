@@ -2,6 +2,21 @@
     align: center;
     background-color: #24252A;
 }
+header{
+    
+    padding: 10px 10%;
+}
+.open_text{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+.open_text:hover{
+    color: #FA8072; 
+}
 #url{
     align: center;
     size: 100px;
