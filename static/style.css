@@ -41,11 +41,13 @@
 .mydiv{
     align-self: center;
     align-items: center;
+    background-color: yellow;
     font-family: "American Typewriter";
     font-size:30px;
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    width:fit-content;
 
 }
 .center{
