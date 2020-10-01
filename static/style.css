@@ -1,12 +1,15 @@
 *{
     align: center;
 }
+body{
+    background-color:lavender;
+}
 #url{
     align: center;
     size: 100px;
     height: 50px;
     width: 600px;
-    font-family: Arial;
+    font-family: fantasy;
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
