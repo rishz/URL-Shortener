@@ -12,7 +12,7 @@
     margin-left: 25%;
 }
 .btn {
-    background: #ffd324;
+    background: #38b394;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
     background-image: -moz-linear-gradient(top, #ffd324, #fab120);
     background-image: -ms-linear-gradient(top, #ffd324, #fab120);
@@ -20,7 +20,7 @@
     background-image: linear-gradient(to bottom, #ffd324, #fab120);
     border-radius: 15px;
     font-family: sans-serif;
-    color: #ffffff;
+    color: #523030;
     font-size: 29px;
     padding: 10px 20px 10px 20px;
     text-decoration: black;
@@ -46,7 +46,7 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
-
+    
 }
 .center{
     font-family: "American Typewriter";
