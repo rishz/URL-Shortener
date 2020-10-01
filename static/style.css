@@ -1,8 +1,21 @@
-*{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     align: center;
 }
-#url{
-    align: center;
+
+body::before {
+    content: '';
+    position: absolute;
+    height: 100vh;
+    z-index: -1;
+    width: 100%;
+    background: linear-gradient(to bottom right, blue, cyan, purple);
+}
+
+#url {
+    text-align: center;
     size: 100px;
     height: 50px;
     width: 600px;
@@ -10,7 +23,9 @@
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    padding: 5px;
 }
+
 .btn {
     background: #ffd324;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
@@ -36,19 +51,21 @@
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
+    box-shadow: 1px 2px 0 purple;
 }
 
-.mydiv{
+.mydiv {
     align-self: center;
     align-items: center;
     font-family: "American Typewriter";
-    font-size:30px;
+    font-size: 30px;
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
 
 }
-.center{
+
+.center {
     font-family: "American Typewriter";
     font-size: 40px;
 }
