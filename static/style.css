@@ -10,6 +10,10 @@
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    border-radius: 20%;
+    border-color: red;
+    
+
 }
 .btn {
     background: #ffd324;
@@ -26,6 +30,8 @@
     text-decoration: black;
     margin-top: 2%;
     margin-left: 43%;
+    
+
 }
 
 .btn:hover {
