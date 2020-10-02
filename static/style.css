@@ -39,6 +39,7 @@
 }
 
 .mydiv{
+    background: #3cb0fd;
     align-self: center;
     align-items: center;
     font-family: "American Typewriter";
@@ -46,6 +47,7 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    width: fit-content;
 
 }
 .center{
