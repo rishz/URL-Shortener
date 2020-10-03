@@ -9,7 +9,7 @@
     font-family: Arial;
     font-size: 25px;
     margin-top: 2%;
-    margin-left: 25%;
+    margin-left: 30%;
 }
 .btn {
     background: #ffd324;
@@ -18,7 +18,7 @@
     background-image: -ms-linear-gradient(top, #ffd324, #fab120);
     background-image: -o-linear-gradient(top, #ffd324, #fab120);
     background-image: linear-gradient(to bottom, #ffd324, #fab120);
-    border-radius: 15px;
+    border-radius: 12px;
     font-family: sans-serif;
     color: #ffffff;
     font-size: 29px;
