@@ -1,15 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
 *{
-    align: center;
+   text-align: center;
+   background-color:#ffdd99 ;
 }
+
+#heading{
+   color:brown;
+   font-family: 'Aladin', cursive,Arial,sans-serif ;
+   font-size:1.6em;
+} 
+
+
 #url{
-    align: center;
+    
     size: 100px;
     height: 50px;
     width: 600px;
     font-family: Arial;
     font-size: 25px;
     margin-top: 2%;
-    margin-left: 25%;
+    background-color:#CADAE4;
+   
+   
 }
 .btn {
     background: #ffd324;
@@ -20,10 +33,12 @@
     background-image: linear-gradient(to bottom, #ffd324, #fab120);
     border-radius: 15px;
     font-family: sans-serif;
-    color: #ffffff;
+    color:#A52A2A ;
     font-size: 29px;
     padding: 10px 20px 10px 20px;
-    text-decoration: black;
+    text-decoration:;
+    border-style: none;
+    outline: none;
     margin-top: 2%;
     margin-left: 43%;
 }
@@ -35,7 +50,10 @@
     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    box-shadow: 5px 10px #888888;
+    color:#90ee90;
     text-decoration: none;
+
 }
 
 .mydiv{
@@ -44,8 +62,10 @@
     font-family: "American Typewriter";
     font-size:30px;
     font-style: inherit;
-    margin-top: 3%;
-    margin-left: 25%;
+    margin-top: 5%;
+    color:#B95412;
+    font-family: 'Sansita Swashed', cursive,sans-serif;
+    
 
 }
 .center{
