@@ -5,11 +5,12 @@
     align: center;
     size: 100px;
     height: 50px;
-    width: 600px;
+    width: 55%;
     font-family: Arial;
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    background-color: rgb(245,245,220);
 }
 .btn {
     background: #ffd324;
