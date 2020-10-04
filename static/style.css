@@ -1,54 +1,57 @@
-*{
-    align: center;
+
+body{
+    background-color:black;
+    color: white;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+.box{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 2.2rem;
+    color : white;
 }
 #url{
-    align: center;
-    size: 100px;
-    height: 50px;
-    width: 600px;
-    font-family: Arial;
-    font-size: 25px;
-    margin-top: 2%;
-    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 1.3rem;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    margin-left: 28%;
+    width: 400px;
+    height: 31px;
 }
-.btn {
-    background: #ffd324;
-    background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
-    background-image: -moz-linear-gradient(top, #ffd324, #fab120);
-    background-image: -ms-linear-gradient(top, #ffd324, #fab120);
-    background-image: -o-linear-gradient(top, #ffd324, #fab120);
-    background-image: linear-gradient(to bottom, #ffd324, #fab120);
-    border-radius: 15px;
-    font-family: sans-serif;
-    color: #ffffff;
-    font-size: 29px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: black;
-    margin-top: 2%;
-    margin-left: 43%;
+#url:hover{
+border-radius: 17px;
+background-color: rgb(240, 233, 233);
+color: black;
+border-color: white;
 }
-
-.btn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-    text-decoration: none;
+.btn{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 46%;
+    height: 40px;
+    font-size: 1rem;
+    font-family: 'Baloo Tammudu 2', cursive;
+    width: 80px;
 }
-
+.btn:hover{
+    background-color: rgb(153, 144, 144);
+    border-radius: 12px;
+    cursor: pointer;
+}
+div .box{
+    height: 15%;
+}
 .mydiv{
-    align-self: center;
-    align-items: center;
-    font-family: "American Typewriter";
-    font-size:30px;
-    font-style: inherit;
-    margin-top: 3%;
-    margin-left: 25%;
+    color: white;
+}
 
-}
-.center{
-    font-family: "American Typewriter";
-    font-size: 40px;
-}
+
+
+
+
+
