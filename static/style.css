@@ -1,17 +1,21 @@
 *{
     align: center;
+    background-image: url("https://media.istockphoto.com/photos/white-gray-geometric-wallpaper-background-picture-id1018450682?k=6&m=1018450682&s=612x612&w=0&h=OTxKQKfElC-_JTdG-kdPJkEpxH2nbxArmCt1YKZClYk=");
 }
 #url{
     align: center;
     size: 100px;
     height: 50px;
     width: 600px;
-    font-family: Arial;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    border-radius: 25px;
+    text-align: center;
 }
 .btn {
+    
     background: #ffd324;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
     background-image: -moz-linear-gradient(top, #ffd324, #fab120);
@@ -19,13 +23,13 @@
     background-image: -o-linear-gradient(top, #ffd324, #fab120);
     background-image: linear-gradient(to bottom, #ffd324, #fab120);
     border-radius: 15px;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
     font-size: 29px;
     padding: 10px 20px 10px 20px;
     text-decoration: black;
     margin-top: 2%;
-    margin-left: 43%;
+    margin-left: 41%;
 }
 
 .btn:hover {
@@ -41,7 +45,7 @@
 .mydiv{
     align-self: center;
     align-items: center;
-    font-family: "American Typewriter";
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:30px;
     font-style: inherit;
     margin-top: 3%;
@@ -49,6 +53,6 @@
 
 }
 .center{
-    font-family: "American Typewriter";
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
 }
