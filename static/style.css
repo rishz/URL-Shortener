@@ -51,4 +51,6 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+    background-color: #ffd324;
+    border-radius: 7px;
 }
