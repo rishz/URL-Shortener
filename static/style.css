@@ -2,15 +2,27 @@
     align: center;
 }
 #url{
+    border-radius: 20px;
     align: center;
     size: 100px;
     height: 50px;
     width: 600px;
-    font-family: Arial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
 }
+
+.url_inp_div{
+    align:center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background:rgb(219, 219, 219);
+    align-content: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
 .btn {
     background: #ffd324;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
@@ -20,7 +32,7 @@
     background-image: linear-gradient(to bottom, #ffd324, #fab120);
     border-radius: 15px;
     font-family: sans-serif;
-    color: #ffffff;
+    color: #000000;
     font-size: 29px;
     padding: 10px 20px 10px 20px;
     text-decoration: black;
@@ -30,6 +42,7 @@
 
 .btn:hover {
     background: #3cb0fd;
+    color: #fff;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
@@ -51,4 +64,11 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+}
+
+.subtitle{
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    margin-top: -60px;
+    color: #ff0000;
 }
