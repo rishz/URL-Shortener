@@ -36,6 +36,7 @@
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
+
 }
 
 .mydiv{
@@ -46,7 +47,8 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
-
+    background : green;
+    width : fit-content;
 }
 .center{
     font-family: "American Typewriter";
