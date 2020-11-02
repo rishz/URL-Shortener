@@ -2,14 +2,14 @@
     align: center;
 }
 #url{
-    align: center;
+    align-items: center;
     size: 100px;
     height: 50px;
     width: 600px;
     font-family: Arial;
     font-size: 25px;
     margin-top: 2%;
-    margin-left: 25%;
+    margin-left: 22%;
 }
 .btn {
     background: #ffd324;
@@ -51,4 +51,9 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+}
+.box{
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
 }
