@@ -12,12 +12,12 @@
     margin-left: 25%;
 }
 .btn {
-    background: #ffd324;
-    background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
+    background: #36ff24;
+    background-image: -webkit-linear-gradient(top, #57ff24, #339b13);
     background-image: -moz-linear-gradient(top, #ffd324, #fab120);
     background-image: -ms-linear-gradient(top, #ffd324, #fab120);
     background-image: -o-linear-gradient(top, #ffd324, #fab120);
-    background-image: linear-gradient(to bottom, #ffd324, #fab120);
+    background-image: linear-gradient(to bottom, #24ff66, #0c9e61);
     border-radius: 15px;
     font-family: sans-serif;
     color: #ffffff;
