@@ -1,5 +1,6 @@
 *{
     align: center;
+    background-color: #BFEDEF;
 }
 #url{
     align: center;
@@ -12,36 +13,36 @@
     margin-left: 25%;
 }
 .btn {
-    background: #ffd324;
-    background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
-    background-image: -moz-linear-gradient(top, #ffd324, #fab120);
-    background-image: -ms-linear-gradient(top, #ffd324, #fab120);
-    background-image: -o-linear-gradient(top, #ffd324, #fab120);
-    background-image: linear-gradient(to bottom, #ffd324, #fab120);
-    border-radius: 15px;
-    font-family: sans-serif;
+    border: none;
+    background: #404040;
     color: #ffffff;
-    font-size: 29px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: black;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
     margin-top: 2%;
     margin-left: 43%;
+    font-family: 'Alegreya', serif;
+    
 }
 
 .btn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-    text-decoration: none;
+    color: #404040;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+
 }
 
 .mydiv{
     align-self: center;
     align-items: center;
-    font-family: "American Typewriter";
+    font-family: 'Alegreya', serif;
     font-size:30px;
     font-style: inherit;
     margin-top: 3%;
@@ -49,6 +50,6 @@
 
 }
 .center{
-    font-family: "American Typewriter";
+    font-family: 'Alegreya', serif;
     font-size: 40px;
 }
