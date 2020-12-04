@@ -11,6 +11,7 @@
     margin-top: 2%;
     margin-left: 25%;
 }
+
 .btn {
     background: #ffd324;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
@@ -51,4 +52,5 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+    color: #fab120;
 }
