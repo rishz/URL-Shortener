@@ -39,6 +39,8 @@
 }
 
 .mydiv{
+    background: yellow;
+    width: fit-content;
     align-self: center;
     align-items: center;
     font-family: "American Typewriter";
