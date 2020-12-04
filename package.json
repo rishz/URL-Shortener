@@ -7,7 +7,8 @@
     "convert-radix64": "^0.2.0",
     "express": "^4.15.2",
     "firebase": "^3.7.0",
-    "hasha": "^2.2.0"
+    "hasha": "^2.2.0",
+    "joi": "^17.3.0"
   },
   "devDependencies": {},
   "scripts": {
