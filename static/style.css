@@ -1,5 +1,6 @@
 *{
     align: center;
+
 }
 #url{
     align: center;
@@ -46,6 +47,8 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    background: yellow;
+    width: fit-content;
 
 }
 .center{
