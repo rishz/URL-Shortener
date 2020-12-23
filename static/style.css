@@ -46,7 +46,8 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
-
+    background-color:#bcee1a ;
+    display :inline-block;
 }
 .center{
     font-family: "American Typewriter";
