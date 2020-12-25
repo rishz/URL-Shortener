@@ -42,7 +42,7 @@ app.get('/api/v1/expand/:shortcode', (req, res) => {
 
 app.listen(port, () => {
 
-    console.log("Listening on port "+port);
+    console.log("Listening on the port "+port);
 
 });
 

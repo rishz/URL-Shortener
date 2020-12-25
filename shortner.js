@@ -1,6 +1,4 @@
-/**
- * Created by rishabhshukla on 09/03/17.
- */
+
 var firebase = require('firebase');
 const r = require('convert-radix64');
 const hasha = require("hasha");
