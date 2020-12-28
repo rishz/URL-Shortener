@@ -1,6 +1,10 @@
 *{
     align: center;
 }
+body{
+background-color: paleturquoise;
+
+}
 #url{
     align: center;
     size: 100px;
@@ -46,7 +50,8 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
-
+    background: rgb(233, 250, 2);
+    width: fit-content;
 }
 .center{
     font-family: "American Typewriter";
