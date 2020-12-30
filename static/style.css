@@ -1,5 +1,6 @@
 *{
     align: center;
+    background-color: silver;
 }
 #url{
     align: center;
@@ -18,7 +19,7 @@
     background-image: -ms-linear-gradient(top, #ffd324, #fab120);
     background-image: -o-linear-gradient(top, #ffd324, #fab120);
     background-image: linear-gradient(to bottom, #ffd324, #fab120);
-    border-radius: 15px;
+    border-radius: 45px;
     font-family: sans-serif;
     color: #ffffff;
     font-size: 29px;
@@ -35,7 +36,9 @@
     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-    text-decoration: none;
+    text-decoration: black;
+    border-radius: 5px;
+
 }
 
 .mydiv{
