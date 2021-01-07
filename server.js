@@ -14,7 +14,6 @@ app.use(bodyParser.urlencoded({extended:true}))
 app.use(express.static("static"));
 
 app.get('/:shortcode',(req,res) => {
-
     shortner.expand(req.params.shortcode)
         .then((url) => {
             res.redirect(url);
