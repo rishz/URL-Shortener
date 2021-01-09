@@ -10,6 +10,7 @@
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    font-family: fantasy;
 }
 .btn {
     background: #ffd324;
@@ -19,8 +20,8 @@
     background-image: -o-linear-gradient(top, #ffd324, #fab120);
     background-image: linear-gradient(to bottom, #ffd324, #fab120);
     border-radius: 15px;
-    font-family: sans-serif;
-    color: #ffffff;
+    font-style: italic;
+    color: #556B2F;
     font-size: 29px;
     padding: 10px 20px 10px 20px;
     text-decoration: black;
@@ -51,4 +52,10 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+    color: #800080;
+    font-style: italic;
+}
+body
+{
+background-color: #FFB6C1
 }
