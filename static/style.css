@@ -10,6 +10,9 @@
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    border-radius: 20px;
+    outline: none;
+    opacity: 1;
 }
 .btn {
     background: #ffd324;
@@ -26,6 +29,8 @@
     text-decoration: black;
     margin-top: 2%;
     margin-left: 43%;
+    outline: none;
+    border: none;
 }
 
 .btn:hover {
