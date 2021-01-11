@@ -7,7 +7,7 @@ $(function () {
         $.post('/api/v1/shorten', {
             url:url
         },function (data) {
-            $('#shortcode').html("chootttaaaaa URL: " + '<a href="/' + data + '">'+window.location.href+data + '</a>');
+            $('#shortcode').html("chotuuu URL: " + '<a href="/' + data + '">'+window.location.href+data + '</a>');
         })
     })
 })
