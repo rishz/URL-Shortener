@@ -11,6 +11,10 @@
     margin-top: 2%;
     margin-left: 25%;
 }
+#url:hover{
+    text-decoration: black;
+    background-color: wheat;
+}
 .btn {
     background: #ffd324;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
@@ -46,9 +50,21 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    background-color: wheat;
+    /* border: 2px solid black; */
+    width: fit-content;
+
+}
+.mydiv:hover{
+    background-color: teal;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 4px;
+    
 
 }
 .center{
     font-family: "American Typewriter";
-    font-size: 40px;
+    font-size: 40x;
+
 }
