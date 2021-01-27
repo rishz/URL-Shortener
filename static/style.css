@@ -17,10 +17,10 @@
     background-image: -moz-linear-gradient(top, #ffd324, #fab120);
     background-image: -ms-linear-gradient(top, #ffd324, #fab120);
     background-image: -o-linear-gradient(top, #ffd324, #fab120);
-    background-image: linear-gradient(to bottom, #ffd324, #fab120);
+    background-image: linear-gradient(to bottom, #ce285a, #fab120);
     border-radius: 15px;
     font-family: sans-serif;
-    color: #ffffff;
+    color: #1d1c1c;
     font-size: 29px;
     padding: 10px 20px 10px 20px;
     text-decoration: black;
