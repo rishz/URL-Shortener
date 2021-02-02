@@ -26,6 +26,7 @@
     text-decoration: black;
     margin-top: 2%;
     margin-left: 43%;
+    outline:none;
 }
 
 .btn:hover {
@@ -46,7 +47,8 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
-
+    background-color: #696969;
+    width: fit-content;
 }
 .center{
     font-family: "American Typewriter";
