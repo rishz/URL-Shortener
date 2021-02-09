@@ -1,36 +1,50 @@
 *{
     align: center;
 }
+body{
+    
+    background-image: linear-gradient(rgba(0, 255, 255, 0.479),rgba(0, 255, 255, 0.411));
+}
 #url{
-    align: center;
+    /* align: center; */
+
+    border-radius: 10px;
+    text-align: center ;
     size: 100px;
+    color:orange;
     height: 50px;
     width: 600px;
     font-family: Arial;
     font-size: 25px;
     margin-top: 2%;
-    margin-left: 25%;
+    margin-left: 20%;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.384);
 }
 .btn {
     background: #ffd324;
+    cursor: pointer;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
     background-image: -moz-linear-gradient(top, #ffd324, #fab120);
     background-image: -ms-linear-gradient(top, #ffd324, #fab120);
     background-image: -o-linear-gradient(top, #ffd324, #fab120);
     background-image: linear-gradient(to bottom, #ffd324, #fab120);
-    border-radius: 15px;
-    font-family: sans-serif;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
     font-size: 29px;
     padding: 10px 20px 10px 20px;
     text-decoration: black;
     margin-top: 2%;
     margin-left: 43%;
+    border: 3px solid white;
+    outline: none;
 }
 
 .btn:hover {
     background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -webkit-linear-gradient(top, #f0fd3c, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
@@ -49,6 +63,7 @@
 
 }
 .center{
-    font-family: "American Typewriter";
+    font-family:monospace;
     font-size: 40px;
+    color: white;
 }
