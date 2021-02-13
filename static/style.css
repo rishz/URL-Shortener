@@ -12,7 +12,7 @@
     margin-left: 25%;
 }
 .btn {
-    background: #ffd324;
+    background: #3cb0fd;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
     background-image: -moz-linear-gradient(top, #ffd324, #fab120);
     background-image: -ms-linear-gradient(top, #ffd324, #fab120);
@@ -20,10 +20,10 @@
     background-image: linear-gradient(to bottom, #ffd324, #fab120);
     border-radius: 15px;
     font-family: sans-serif;
-    color: #ffffff;
+    color: #00ff3f;
     font-size: 29px;
     padding: 10px 20px 10px 20px;
-    text-decoration: black;
+    text-decoration: rgb(0, 0, 0);
     margin-top: 2%;
     margin-left: 43%;
 }
@@ -46,7 +46,8 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
-
+    background:#3cb0fd;
+    width:fit-content;
 }
 .center{
     font-family: "American Typewriter";
