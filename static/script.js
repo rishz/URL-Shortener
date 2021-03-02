@@ -6,8 +6,13 @@ $(function () {
         var url = $('#url').val();
         $.post('/api/v1/shorten', {
             url:url
+            ls: ls
+
+
+
+            
         },function (data) {
-            $('#shortcode').html("Short URL: " + '<a href="/' + data + '">'+window.location.href+data + '</a>');
+            $('#shortcode').html("tiny URL: " + '<a href="/' + data + '">'+window.location.href+data + '</a>');
         })
     })
 })
