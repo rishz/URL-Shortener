@@ -26,6 +26,7 @@
     text-decoration: black;
     margin-top: 2%;
     margin-left: 43%;
+    transition: font-size 1s;
 }
 
 .btn:hover {
@@ -36,6 +37,9 @@
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 32px;
 }
 
 .mydiv{
