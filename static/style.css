@@ -9,7 +9,7 @@ body::before{
     background: black;
     opacity: 0.3;
 }
-.containers{
+.container{
     display: flex;
     flex-direction: column;
     justify-content: center;
