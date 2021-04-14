@@ -42,6 +42,8 @@
     align-self: center;
     align-items: center;
     font-family: "American Typewriter";
+    background-color: #ffd324;
+    width: fit-content;
     font-size:30px;
     font-style: inherit;
     margin-top: 3%;
