@@ -29,13 +29,13 @@
 }
 
 .btn:hover {
-    background: #3cb0fd;
+    background: #8edd26;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .mydiv{
@@ -46,9 +46,15 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    background-color: yellowgreen;
+    width: fit-content;
 
 }
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+}
+#head{
+    text-decoration: underline;
+    color:teal;
 }
