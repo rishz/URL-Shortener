@@ -1,8 +1,8 @@
 *{
-    align: center;
+    box-align: center;
 }
 #url{
-    align: center;
+    box-align: center;
     size: 100px;
     height: 50px;
     width: 600px;
@@ -12,13 +12,13 @@
     margin-left: 25%;
 }
 .btn {
-    background: #ffd324;
+    background: #33f00d;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
     background-image: -moz-linear-gradient(top, #ffd324, #fab120);
     background-image: -ms-linear-gradient(top, #ffd324, #fab120);
     background-image: -o-linear-gradient(top, #ffd324, #fab120);
     background-image: linear-gradient(to bottom, #ffd324, #fab120);
-    border-radius: 15px;
+    border-radius: 25px;
     font-family: sans-serif;
     color: #ffffff;
     font-size: 29px;
@@ -51,4 +51,5 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+    color: #3498db;
 }
