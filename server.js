@@ -13,14 +13,14 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(express.static("static"));
 
-app.get('/:shortcode',(req,res) => {
+app.get('/shortcode',(req,res) => {
 
     shortner.expand(req.params.shortcode)
         .then((url) => {
             res.redirect(url);
         })
         .catch((error) => {
-
+            console.log(error);
         });
 });
 
@@ -29,7 +29,6 @@ app.post('/api/v1/shorten', (req, res) => {
     let url = req.body.url;
     let shortcode = shortner.shorten(url);
     res.send(shortcode);
-
 });
 
 app.get('/api/v1/expand/:shortcode', (req, res) => {
@@ -46,4 +45,4 @@ app.listen(port, () => {
 
 });
 
-//console.log(shortner.shorten('http://google.com'));
+// console.log(shortner.shorten('http://google.com'));
