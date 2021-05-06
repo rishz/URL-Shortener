@@ -9,8 +9,8 @@ const app = express();
 const shortner = require("./shortner");
 const port = 4100;
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended:true}))
+app.use(express.json());
+app.use(express.urlencoded({extended:true}))
 app.use(express.static("static"));
 
 app.get('/:shortcode',(req,res) => {
