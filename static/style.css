@@ -1,15 +1,14 @@
 *{
-    align: center;
+    text-align: center;
 }
 #url{
-    align: center;
+    text-align: center;
     size: 100px;
     height: 50px;
     width: 600px;
     font-family: Arial;
     font-size: 25px;
     margin-top: 2%;
-    margin-left: 25%;
 }
 .btn {
     background: #ffd324;
@@ -25,7 +24,6 @@
     padding: 10px 20px 10px 20px;
     text-decoration: black;
     margin-top: 2%;
-    margin-left: 43%;
 }
 
 .btn:hover {
@@ -51,4 +49,12 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+    text-align: center;
+}
+.urlColor
+{
+    background-color: #3498db;
+    color: white;
+    border-radius: 5%;
+
 }
