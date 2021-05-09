@@ -1,8 +1,11 @@
-*{
-    align: center;
+body{
+    background-color: rgba(0, 255, 255, 0.534);
+}
+.center h1{
+    color: #f02c6d;
 }
 #url{
-    align: center;
+    text-align: center;
     size: 100px;
     height: 50px;
     width: 600px;
@@ -10,6 +13,7 @@
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    display: flex;
 }
 .btn {
     background: #ffd324;
@@ -26,6 +30,7 @@
     text-decoration: black;
     margin-top: 2%;
     margin-left: 43%;
+    display: flex;
 }
 
 .btn:hover {
