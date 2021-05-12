@@ -51,4 +51,8 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+    font color: blue;
+}
+body{
+  background-color: aqua;
 }
