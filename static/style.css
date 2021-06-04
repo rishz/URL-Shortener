@@ -12,7 +12,7 @@
     margin-left: 25%;
 }
 .btn {
-    background: #ffd324;
+    background: #6607e2;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
     background-image: -moz-linear-gradient(top, #ffd324, #fab120);
     background-image: -ms-linear-gradient(top, #ffd324, #fab120);
@@ -29,7 +29,7 @@
 }
 
 .btn:hover {
-    background: #3cb0fd;
+    background: #0d1920;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
@@ -46,6 +46,7 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    background: aqua;
 
 }
 .center{
