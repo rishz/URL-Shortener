@@ -12,7 +12,7 @@
     margin-left: 25%;
 }
 .btn {
-    background: #ffd324;
+    background: #5b12e4;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
     background-image: -moz-linear-gradient(top, #ffd324, #fab120);
     background-image: -ms-linear-gradient(top, #ffd324, #fab120);
@@ -29,7 +29,7 @@
 }
 
 .btn:hover {
-    background: #3cb0fd;
+    background: #19e656;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
@@ -40,6 +40,7 @@
 
 .mydiv{
     align-self: center;
+    background-color: #fab120;
     align-items: center;
     font-family: "American Typewriter";
     font-size:30px;
