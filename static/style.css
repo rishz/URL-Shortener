@@ -9,7 +9,7 @@
     font-family: Arial;
     font-size: 25px;
     margin-top: 2%;
-    margin-left: 25%;
+    margin-left: 25%; 
 }
 .btn {
     background: #ffd324;
@@ -20,7 +20,7 @@
     background-image: linear-gradient(to bottom, #ffd324, #fab120);
     border-radius: 15px;
     font-family: sans-serif;
-    color: #ffffff;
+    color: #912020;
     font-size: 29px;
     padding: 10px 20px 10px 20px;
     text-decoration: black;
@@ -46,6 +46,8 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    background:#ffc400;
+    width:fit-content ;
 
 }
 .center{
