@@ -10,6 +10,7 @@
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+
 }
 .btn {
     background: #ffd324;
@@ -46,6 +47,10 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    color: #3cb0fd;
+    background: #fab120;
+    width:fit-content;
+
 
 }
 .center{
