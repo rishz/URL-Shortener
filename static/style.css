@@ -1,54 +1,71 @@
 *{
     align: center;
 }
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    color: rgb(48, 10, 48);
+}
+
 #url{
-    align: center;
+    margin: 0 auto;
+    margin-top: 4%;
     size: 100px;
     height: 50px;
     width: 600px;
-    font-family: Arial;
+    padding: 8px 16px;
     font-size: 25px;
-    margin-top: 2%;
-    margin-left: 25%;
+    border: 1px solid rgb(90, 16, 90);
+    border-radius: 10px;
+    outline: none;
 }
+
+#url:focus{
+    box-shadow: 0 0 8px rgba(90, 16, 90, 0.486);
+}
+
 .btn {
-    background: #ffd324;
-    background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
-    background-image: -moz-linear-gradient(top, #ffd324, #fab120);
-    background-image: -ms-linear-gradient(top, #ffd324, #fab120);
-    background-image: -o-linear-gradient(top, #ffd324, #fab120);
-    background-image: linear-gradient(to bottom, #ffd324, #fab120);
     border-radius: 15px;
-    font-family: sans-serif;
     color: #ffffff;
     font-size: 29px;
     padding: 10px 20px 10px 20px;
     text-decoration: black;
     margin-top: 2%;
-    margin-left: 43%;
+    margin: 2% auto;
+    border: none;
+    background-color: rgb(90, 16, 90);
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.5);
+    transition: all 300ms ease-in;
+    cursor: pointer;
 }
 
 .btn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    background-color: rgba(51, 8, 51, 0.993);
     text-decoration: none;
 }
 
 .mydiv{
     align-self: center;
     align-items: center;
-    font-family: "American Typewriter";
     font-size:30px;
     font-style: inherit;
     margin-top: 3%;
-    margin-left: 25%;
-
+    color:rgb(53, 4, 53);
+    background-color: rgba(77, 11, 77, 0.274);
 }
+
+.mydiv a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(48, 10, 48);
+}
+
 .center{
-    font-family: "American Typewriter";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 40px;
 }
