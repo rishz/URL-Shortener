@@ -1,6 +1,9 @@
 *{
     align: center;
 }
+.center{
+    text-decoration: underline;
+}
 #url{
     align: center;
     size: 100px;
@@ -10,6 +13,8 @@
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    background-color: #ffd324;
+    color: 3cb0fd;
 }
 .btn {
     background: #ffd324;
