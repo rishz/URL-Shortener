@@ -1,8 +1,8 @@
 *{
-    align: center;
+    box-align: center;
 }
 #url{
-    align: center;
+    box-align: center;
     size: 100px;
     height: 50px;
     width: 600px;
@@ -12,8 +12,8 @@
     margin-left: 25%;
 }
 .btn {
-    background: #ffd324;
-    background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
+    background: #ff24ab;
+    background-image: -webkit-linear-gradient(top, #2483ff, #fab120);
     background-image: -moz-linear-gradient(top, #ffd324, #fab120);
     background-image: -ms-linear-gradient(top, #ffd324, #fab120);
     background-image: -o-linear-gradient(top, #ffd324, #fab120);
@@ -41,11 +41,13 @@
 .mydiv{
     align-self: center;
     align-items: center;
-    font-family: "American Typewriter";
+    font-family: "Times New Roman";
     font-size:30px;
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    background: #FFFF00;
+    width:fit-content;
 
 }
 .center{
