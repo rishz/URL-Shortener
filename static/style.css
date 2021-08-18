@@ -2,16 +2,24 @@
     align: center;
 }
 #url{
-    align: center;
+    text-align: center;
     size: 100px;
     height: 50px;
     width: 600px;
     font-family: Arial;
     font-size: 25px;
     margin-top: 2%;
-    margin-left: 25%;
+    margin-left: 30%;
+    /* margin-bottom: 10%; */
+   
+    
+}
+
+h1{
+    color:rgb(45, 218, 160)
 }
 .btn {
+    text-align: center;
     background: #ffd324;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
     background-image: -moz-linear-gradient(top, #ffd324, #fab120);
@@ -51,4 +59,8 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+}
+
+body{
+    background-color: rgba(127, 255, 212, 0.418);
 }
