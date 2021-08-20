@@ -2,7 +2,7 @@
  * Created by rishabhshukla on 09/03/17.
  */
 $(function () {
-    $('#submit').click(function () {
+    $('#Final').click(function () {
         var url = $('#url').val();
         $.post('/api/v1/shorten', {
             url:url
