@@ -5,9 +5,12 @@ $(function () {
     $('#submit').click(function () {
         var url = $('#url').val();
         $.post('/api/v1/shorten', {
-            url:url
-        },function (data) {
-            $('#shortcode').html("Short URL: " + '<a href="/' + data + '">'+window.location.href+data + '</a>');
+            url: url
+        }, function (data) {
+            $('#shortcode').html("Short URL: " + '<a target="_blank" href="/' + data + '">' + window.location.href + data + '</a>');
         })
+        $('#shortcode').toggle('slow', function () {
+            // Animation complete.
+        });
     })
 })

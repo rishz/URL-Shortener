@@ -1,15 +1,22 @@
 *{
-    align: center;
+    align-items: center;
+    background: #353b91;
 }
 #url{
-    align: center;
-    size: 100px;
+    font-size: 100px;
     height: 50px;
     width: 600px;
     font-family: Arial;
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    margin: 0 auto;
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: bold;
+    display: block;
+    background-color: #fff;
 }
 .btn {
     background: #ffd324;
@@ -25,7 +32,8 @@
     padding: 10px 20px 10px 20px;
     text-decoration: black;
     margin-top: 2%;
-    margin-left: 43%;
+    margin-left: 45%;
+    
 }
 
 .btn:hover {
@@ -39,14 +47,27 @@
 }
 
 .mydiv{
-    align-self: center;
-    align-items: center;
-    font-family: "American Typewriter";
-    font-size:30px;
-    font-style: inherit;
-    margin-top: 3%;
-    margin-left: 25%;
-
+    background: #fff;
+  padding: 1.2rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.7rem;
+  margin-left: 30rem;
+  min-width: 32rem;
+  margin-top: 5rem;
+  word-break: break-word;
+  background: rgb(194, 173, 14);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    width: fit-content;
+    font-weight: bold;
+    font-size:larger; 
+}
+a{
+    background: #ffffff;
+}
+.mydiv:hover{
+    color: #ffffff;
 }
 .center{
     font-family: "American Typewriter";
