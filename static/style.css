@@ -47,6 +47,9 @@
     margin-top: 3%;
     margin-left: 25%;
 
+    background: rgb(81, 139, 84);
+    width: fit-content;
+
 }
 .center{
     font-family: "American Typewriter";
