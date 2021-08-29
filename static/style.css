@@ -1,5 +1,6 @@
 *{
     align: center;
+    background-color: aquamarine;
 }
 #url{
     align: center;
@@ -46,6 +47,8 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    background: #3cb0fd;
+    width: fit-content;
 
 }
 .center{
