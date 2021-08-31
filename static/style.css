@@ -1,15 +1,26 @@
 *{
-    align: center;
+    text-align: center;
 }
+
+h1{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+
 #url{
-    align: center;
+    text-align: center;
     size: 100px;
     height: 50px;
     width: 600px;
     font-family: Arial;
     font-size: 25px;
-    margin-top: 2%;
-    margin-left: 25%;
+    border-radius: 20px;
+    outline: none;
+}
+
+#url:focus{
+    border: 5px solid steelblue;
 }
 .btn {
     background: #ffd324;
@@ -24,8 +35,8 @@
     font-size: 29px;
     padding: 10px 20px 10px 20px;
     text-decoration: black;
-    margin-top: 2%;
-    margin-left: 43%;
+    margin-top: 3%;
+    outline: none;
 }
 
 .btn:hover {
