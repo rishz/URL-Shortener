@@ -1,0 +1,27 @@
+Firstly Try this 
+npm ERR! code ELIFECYCLE npm error
+npm cache clean --force
+
+Second Method :-
+
+npm ERR! code ELIFECYCLE npm ERR! errno 2
+
+Step 1: $ npm cache clean --force
+
+Step 2: Delete node_modules by $ rm -rf node_modules package-lock.json folder or delete it manually by going into the directory and right-click 
+Error :->delete / move to trash. Also, delete package-lock.json file too.
+
+Step 3: npm install
+
+To start again, $ npm start
+
+This worked for me. Hopes it works for you too.
+
+
+PS: If it is still there, kindly check the error it is displaying and act accordingly. This error is specific to node.js environment.
+
+Third Method
+npm ERR! code ELIFECYCLE npm ERR! errno 1
+rm -rf node_modules && rm ./package-lock.json && npm install
+
+Hope this Help you to solve it.
