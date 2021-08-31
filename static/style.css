@@ -1,8 +1,10 @@
 *{
-    align: center;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg,limegreen,cyan);
 }
 #url{
-    align: center;
     size: 100px;
     height: 50px;
     width: 600px;
@@ -46,7 +48,8 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
-
+    background: linear-gradient(90deg,rgb(105, 238, 105),rgb(91, 245, 245));
+    width:fit-content;
 }
 .center{
     font-family: "American Typewriter";
