@@ -46,6 +46,8 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    background:#404040;
+    width: fit-content;
 
 }
 .center{
