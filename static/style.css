@@ -10,7 +10,14 @@
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    outline: none;
 }
+
+#url:hover{
+    border: 2px solid #2b80fd;
+    box-shadow: #2279fc 1px 1px 5px 1px;
+}
+
 .btn {
     background: #ffd324;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
