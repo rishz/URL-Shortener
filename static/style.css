@@ -1,5 +1,7 @@
 *{
     align: center;
+    background-image: linear-gradient(45deg, violet, white, yellow);
+    
 }
 #url{
     align: center;
@@ -10,8 +12,10 @@
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    background: white;
 }
 .btn {
+    
     background: #ffd324;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
     background-image: -moz-linear-gradient(top, #ffd324, #fab120);
@@ -35,6 +39,7 @@
     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    transition: all 1.3s;
     text-decoration: none;
 }
 
