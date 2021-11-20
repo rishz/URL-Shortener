@@ -42,10 +42,12 @@
     align-self: center;
     align-items: center;
     font-family: "American Typewriter";
+    background: #00FF7F;
     font-size:30px;
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    width: fit-content;
 
 }
 .center{
