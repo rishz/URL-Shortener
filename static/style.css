@@ -52,3 +52,7 @@
     font-family: "American Typewriter";
     font-size: 40px;
 }
+
+h1 {
+    background-color: rgb(238, 224, 32);
+  }
