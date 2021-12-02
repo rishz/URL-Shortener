@@ -1,31 +1,50 @@
 *{
     align: center;
 }
-#url{
-    align: center;
-    size: 100px;
-    height: 50px;
-    width: 600px;
-    font-family: Arial;
-    font-size: 25px;
-    margin-top: 2%;
-    margin-left: 25%;
+
+body{
+    justify-content: center;
+    display: flex;
+    background: #252727;
+    background-image: url('https://source.unsplash.com/1600x900/?weather'); /* you can customize whatever type of BACKGROUNG IMAGES you want to display*/
 }
+#url{
+    border: none;
+    padding: 10px;
+    border-radius: 18em;
+    outline: none;
+    background: #7c7c7c3b;
+    font-family: inherit;
+    font-size: 120%;
+    width: calc(100% - 20px);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.card {
+    background: #0e0e0ed0;
+    padding: 2em;
+    border-radius: 40px;
+    max-width: 420px;
+    width: 100%;
+    margin: 1em;
+    color : white;
+}
+
+
 .btn {
-    background: #ffd324;
-    background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
-    background-image: -moz-linear-gradient(top, #ffd324, #fab120);
-    background-image: -ms-linear-gradient(top, #ffd324, #fab120);
-    background-image: -o-linear-gradient(top, #ffd324, #fab120);
-    background-image: linear-gradient(to bottom, #ffd324, #fab120);
+    background: #2490ff52;
+    background-image: cornsilk;
     border-radius: 15px;
     font-family: sans-serif;
     color: #ffffff;
-    font-size: 29px;
+    font-size: 25px;
     padding: 10px 20px 10px 20px;
     text-decoration: black;
-    margin-top: 2%;
-    margin-left: 43%;
+    margin-top: 3%;
+    margin-left: 37%;
+    border: none;
+    transition-duration: 0.4;
 }
 
 .btn:hover {
@@ -49,6 +68,6 @@
 
 }
 .center{
-    font-family: "American Typewriter";
-    font-size: 40px;
+    font-family: serif;
+    font-size: 35px;
 }
