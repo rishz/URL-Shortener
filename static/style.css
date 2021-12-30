@@ -46,7 +46,10 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
-
+    background: #228B22;
+    color: white;
+    width: fit-content;
+    padding: 5px 20px;
 }
 .center{
     font-family: "American Typewriter";
