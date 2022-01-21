@@ -1,23 +1,30 @@
 *{
     align: center;
 }
+
 #url{
-    align: center;
+
+
     size: 100px;
     height: 50px;
     width: 600px;
     font-family: Arial;
     font-size: 25px;
     margin-top: 2%;
-    margin-left: 25%;
+    /* margin-left: 25%; */
+}
+.url{
+    display: flex;
+    justify-content: center;
 }
 .btn {
-    background: #ffd324;
-    background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
-    background-image: -moz-linear-gradient(top, #ffd324, #fab120);
-    background-image: -ms-linear-gradient(top, #ffd324, #fab120);
-    background-image: -o-linear-gradient(top, #ffd324, #fab120);
-    background-image: linear-gradient(to bottom, #ffd324, #fab120);
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    
     border-radius: 15px;
     font-family: sans-serif;
     color: #ffffff;
@@ -29,13 +36,15 @@
 }
 
 .btn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-    text-decoration: none;
+    
+    background:  #4BB543;
+    box-shadow:10px 10px ;
+    background-image: -webkit-linear-gradient(top, #4BB543, #4BB543);
+    background-image: -moz-linear-gradient(top, #4BB543, #4BB543);
+    background-image: -ms-linear-gradient(top, #4BB543, #4BB543);
+    background-image: -o-linear-gradient(top, #4BB543, #4BB543);
+    background-image: linear-gradient(to bottom, #4BB543, #4BB543);
+   text-decoration: none;
 }
 
 .mydiv{
@@ -51,4 +60,11 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+  text-align: center;
+    background: #3cb0fd;
+    
+    padding-left: 4px;
+    padding-right: 4px;
+    color: white;
+    border-radius: 9px;
 }
