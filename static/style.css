@@ -46,6 +46,10 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    background-color: #3498db;
+    border-radius: 20px;
+    padding: 20px;
+    width: fit-content;
 
 }
 .center{
