@@ -1,6 +1,12 @@
 *{
     align: center;
+    background-color: #91dacf;
 }
+
+h1{
+    color: #3498db;
+}
+
 #url{
     align: center;
     size: 100px;
@@ -46,7 +52,6 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
-
 }
 .center{
     font-family: "American Typewriter";
