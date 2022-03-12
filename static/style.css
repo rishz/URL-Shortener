@@ -1,15 +1,15 @@
-*{
-    align: center;
+body{
+    max-width: 950px;
+    margin: auto;
+    text-align: center;
 }
 #url{
-    align: center;
     size: 100px;
     height: 50px;
     width: 600px;
     font-family: Arial;
     font-size: 25px;
     margin-top: 2%;
-    margin-left: 25%;
 }
 .btn {
     background: #ffd324;
@@ -25,7 +25,6 @@
     padding: 10px 20px 10px 20px;
     text-decoration: black;
     margin-top: 2%;
-    margin-left: 43%;
 }
 
 .btn:hover {
