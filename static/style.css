@@ -26,6 +26,7 @@
     text-decoration: black;
     margin-top: 2%;
     margin-left: 43%;
+    background-color: red;
 }
 
 .btn:hover {
@@ -51,4 +52,8 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+}
+
+body{
+    background-color: lightseagreen;
 }
