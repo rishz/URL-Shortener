@@ -3,6 +3,8 @@
  */
 var firebase = require('firebase');
 const r = require('convert-radix64');
+const hasha = require("hasha");
+const hashMap = {};
 
 var config = {
     apiKey: "AIzaSyBAAUCZ8xXzS4r7jxMhlvPB6OzKIC0MRE8",
@@ -11,10 +13,9 @@ var config = {
     storageBucket: "urlshortner-b1883.appspot.com",
 };
 firebase.initializeApp(config);
-const hasha = require("hasha");
-const hashMap = {};
+
 module.exports = {
-    shorten: function (url) {
+    shorten: (url) => {
         hash =  hasha(url, {encoding:"base64", algorithm:"md5"});
         hash = hash.slice(0,4);
 
@@ -28,27 +29,30 @@ module.exports = {
         return hash;
 
     },
-    expand: function (shortcode) {
-        // return firebase.database().ref('shortcode/'+shortcode).then(function(snapshot) {
-        //     var username = snapshot.val().url;
-        //     console.log(username);
-        // });
+    expand: (shortcode) => {
 
-        var ref = firebase.database().ref('/'+shortcode);
+        return new Promise(function(resolve, reject){
 
-        ref.once('child_added').then(function(snapshot) {
-            let username = snapshot.val().url;
+            if(shortcode === undefined){
+                reject(null);
+            }
+            var ref = firebase.database().ref('/'+r.from64(shortcode));
 
-            console.log("converted value =  "+username);
-            return hashMap[shortcode];
-            // ref.once('value').off();
-            //return username;
-
+                ref.once('value').then(function(snapshot) {
+                val = snapshot.val();
+                if(val){       
+                    let url = val.url;
+                    resolve(url);
+                }else{
+                    resolve(hashMap[shortcode]);
+                }
+            });
+                
         });
     }
 };
 
-function writeUserData(url,shortcode,code) {
+writeUserData = (url,shortcode,code) => {
     firebase.database().ref('/'+shortcode).set({
         code:code,
         url:url

@@ -6,34 +6,43 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
-
 const shortner = require("./shortner");
-
-
+const port = 4100;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(express.static("static"));
+
 app.get('/:shortcode',(req,res) => {
-    let url = shortner.expand(req.params.shortcode);
-    res.redirect(url);
+
+    shortner.expand(req.params.shortcode)
+        .then((url) => {
+            res.redirect(url);
+        })
+        .catch((error) => {
+
+        });
 });
-app.post('/api/v1/shorten',function (req, res) {
+
+app.post('/api/v1/shorten', (req, res) => {
+
     let url = req.body.url;
     let shortcode = shortner.shorten(url);
     res.send(shortcode);
 
-    // console.log(shortcode)
-
 });
-app.get('/api/v1/expand/:shortcode',function (req, res) {
-    let shortcode = req.body.shortcode;    console.log(shortcode)
+
+app.get('/api/v1/expand/:shortcode', (req, res) => {
+
+    let shortcode = req.body.shortcode;
     let url = url.expand(shortcode);
     res.send(url);
-});
-app.listen(4100, function(){
 
-    console.log("Listening on port 4100")
+});
+
+app.listen(port, () => {
+
+    console.log("Listening on port "+port);
 
 });
 
