@@ -1,6 +1,9 @@
 *{
     align: center;
 }
+body{
+    background-color: #fff4cf;
+}
 #url{
     align: center;
     size: 100px;
@@ -12,12 +15,12 @@
     margin-left: 25%;
 }
 .btn {
-    background: #ffd324;
-    background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
-    background-image: -moz-linear-gradient(top, #ffd324, #fab120);
-    background-image: -ms-linear-gradient(top, #ffd324, #fab120);
-    background-image: -o-linear-gradient(top, #ffd324, #fab120);
-    background-image: linear-gradient(to bottom, #ffd324, #fab120);
+    background: #fad324;
+    background-image: -webkit-linear-gradient(top, #fad324, #fab120);
+    background-image: -moz-linear-gradient(top, #fad324, #fab120);
+    background-image: -ms-linear-gradient(top, #fad324, #fab120);
+    background-image: -o-linear-gradient(top, #ffa324, #fab120);
+    background-image: linear-gradient(to bottom, #fad324, #fab120);
     border-radius: 15px;
     font-family: sans-serif;
     color: #ffffff;
@@ -46,6 +49,7 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    border-radius: 10px;
 
 }
 .center{
