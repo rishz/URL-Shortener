@@ -1,15 +1,29 @@
 *{
-    align: center;
+    margin-top: 6rem;
+}
+body{
+    background:   slategray ;
 }
 #url{
-    align: center;
     size: 100px;
     height: 50px;
+    color: wheat;
+    background: transparent;
     width: 600px;
     font-family: Arial;
     font-size: 25px;
-    margin-top: 2%;
-    margin-left: 25%;
+    margin-top: 4%;
+    margin-left: 30%;
+   overflow: hidden ;
+   border-top-style: none;
+   border-left-style: none;
+   border-right-style: none;
+   border-bottom: 2px solid firebrick;
+   cursor: pointer;
+}
+#url::placeholder{
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 .btn {
     background: #ffd324;
@@ -20,12 +34,12 @@
     background-image: linear-gradient(to bottom, #ffd324, #fab120);
     border-radius: 15px;
     font-family: sans-serif;
-    color: #ffffff;
+    color: #eb0b0b;
     font-size: 29px;
     padding: 10px 20px 10px 20px;
     text-decoration: black;
-    margin-top: 2%;
-    margin-left: 43%;
+    margin-top: 3%;
+    margin-left: 45%;
 }
 
 .btn:hover {
@@ -36,8 +50,14 @@
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
+    box-shadow: 3px 5px 4px goldenrod;
+    color: yellow;
+    transform: translateY(-10px);
 }
-
+#url:focus{
+    border-radius: 7px;      
+    outline: none;
+}
 .mydiv{
     align-self: center;
     align-items: center;
@@ -51,4 +71,5 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+    text-shadow: 2px 2px 2px white;
 }
