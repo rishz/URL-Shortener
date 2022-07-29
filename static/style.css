@@ -46,9 +46,14 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    background-color: rgb(181, 207, 207);
+    width: fit-content;
 
 }
 .center{
     font-family: "American Typewriter";
-    font-size: 40px;
+    font-size: 35px;
+    /* background-color: red; */
+    
+   
 }
