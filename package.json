@@ -7,12 +7,13 @@
     "convert-radix64": "^0.2.0",
     "express": "^4.15.2",
     "firebase": "^3.7.0",
-    "hasha": "^2.2.0"
+    "hasha": "^2.2.0",
+    "vite": "^3.0.7"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
+    
   },
   "author": "",
   "license": "ISC",
