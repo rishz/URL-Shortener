@@ -10,9 +10,10 @@
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    background: #3cb0fd;
 }
 .btn {
-    background: #ffd324;
+    background: #08f214;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
     background-image: -moz-linear-gradient(top, #ffd324, #fab120);
     background-image: -ms-linear-gradient(top, #ffd324, #fab120);
@@ -29,7 +30,7 @@
 }
 
 .btn:hover {
-    background: #3cb0fd;
+    background: hsl(123, 98%, 61%);
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
@@ -46,6 +47,8 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    background: #08f214;
+    
 
 }
 .center{
