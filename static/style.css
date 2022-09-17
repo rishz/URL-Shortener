@@ -35,6 +35,7 @@
     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    background-image: url("https://unsplash.com/photos/RLQRSOB7mGs");
     text-decoration: none;
 }
 
@@ -46,8 +47,7 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
-
-}
+    }
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
