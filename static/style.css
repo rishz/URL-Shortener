@@ -1,5 +1,6 @@
 *{
     align: center;
+    background: rgb(159, 159, 234);
 }
 #url{
     align: center;
@@ -10,6 +11,9 @@
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    background-color: yellow;
+    width: fit-content;
+    
 }
 .btn {
     background: #ffd324;
