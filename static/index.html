@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <script src="jquery.min.js"></script>
-    <script src="script.js"></script>
 
-    <title>URL Shortner</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="jquery.min.js"></script>
+        <script src="script.js"></script>
 
-<div class="center">
-    <h1 align="center"> URL Shortener</h1>
-</div>
-    <input id="url" type="text" placeholder="Enter URL" name="url">
-    <br>
-    <input id="submit" type="submit" class="btn">
-    <div id="shortcode" class="mydiv"></div>
+        <title>URL Shortner</title>
+    </head>
 
-</body>
+    <body>
+        <div class="center">
+            <div class="heading">
+                <h1>URL Shortener</h1>
+            </div>
+            <div class="urlfind">
+                <input id="url" type="text" placeholder="Enter URL" name="url" required/>
+                <input id="submit" type="submit" class="btn" />
+            </div>
+            <div id="shortcode" class="mydiv"></div>
+        </div>
+    </body>
+
 </html>
