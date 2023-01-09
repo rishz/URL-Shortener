@@ -1,8 +1,8 @@
-*{
-    align: center;
+/* *{
+    text-align: center;
 }
 #url{
-    align: center;
+    text-align: center;
     size: 100px;
     height: 50px;
     width: 600px;
@@ -51,4 +51,72 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.center{
+    height: 50vh;
+    width: 50%;
+    background-color: #629bf1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.urlfind{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.urlfind #url{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin: 5px;
+}
+
+.urlfind #submit{
+    height: 50px;
+    width: 60px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin: 5px;
+    background-color: red;
+}
+
+.mydiv{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
