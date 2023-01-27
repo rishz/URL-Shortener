@@ -34,7 +34,8 @@
 
 .center{
     font-family: "American Typewriter";
-    font-size: 40px;
+    font-size: 35px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
