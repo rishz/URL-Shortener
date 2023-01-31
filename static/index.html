@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <script src="jquery.min.js"></script>
     <script src="script.js"></script>
 
@@ -11,12 +11,32 @@
 <body>
 
 <div class="center">
-    <h1 align="center"> URL Shortener</h1>
+    <h1> Short URL </h1>
 </div>
-    <input id="url" type="text" placeholder="Enter URL" name="url">
-    <br>
-    <input id="submit" type="submit" class="btn">
-    <div id="shortcode" class="mydiv"></div>
+
+<div class="container flex">
+    <div class="input-card card">
+
+        <div class="heading ">
+            <h3>Paste the URL to be shortened</h3>
+        </div>
+
+        <div class="bar  flex">
+                <input id="url" type="text" placeholder="Enter the link here" name="url">
+            
+                <input id="submit" type="submit" class="btn">
+        </div>
+    </div>
+
+    <div class="output-card card flex-col">
+
+        <div class="heading ">
+            <h3>Shorten URL is below </h3>
+        </div>
+
+       <div id="shortcode" class="mydiv "></div>
+    </div>
+</div>
 
 </body>
 </html>

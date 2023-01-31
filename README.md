@@ -26,22 +26,18 @@ Great tool for shortening a long URL to just 4 characters.
 * css 
 * jquery
 
-## Screenshot
+## Contribution : New UI added to the URL shortener 
 
-![screens](https://cloud.githubusercontent.com/assets/20211622/23782143/106745a0-0578-11e7-96fb-eda680be53f4.png) ![screen shot 2017-03-10 at 10 16 40 am](https://cloud.githubusercontent.com/assets/20211622/23782539/325a4e16-057b-11e7-951a-641b63e1022d.png)
+#### **Before** : 
+
+![screens](https://cloud.githubusercontent.com/assets/20211622/23782143/106745a0-0578-11e7-96fb-eda680be53f4.png)
+
+#### **After** : 
+
+![image](https://user-images.githubusercontent.com/92505744/215319990-2f3bb95c-1982-4498-9c4f-f1056fd7bd58.png)
 
 
-Contributing
-==========
-Any kind of contributions are welcome.
-
-1. **Fork** the repo on GitHub.
-2. **Clone** the project to your own machine.
-3. **Commit** changes to **development** branch.
-4. **Push** your work back up to your fork.
-5. Submit a **Pull request** so that I can review your changes
-
-##License
+## License
 
 ```Groovy
 MIT License
