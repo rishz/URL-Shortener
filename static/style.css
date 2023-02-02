@@ -13,11 +13,11 @@
 }
 .btn {
     background: #ffd324;
-    background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
-    background-image: -moz-linear-gradient(top, #ffd324, #fab120);
-    background-image: -ms-linear-gradient(top, #ffd324, #fab120);
-    background-image: -o-linear-gradient(top, #ffd324, #fab120);
-    background-image: linear-gradient(to bottom, #ffd324, #fab120);
+    background-image: -webkit-linear-gradient(top, red, #ff0000);
+    background-image: -moz-linear-gradient(top, #fe1f1f, #ec0404);
+    background-image: -ms-linear-gradient(top, #ea1515, #cc1919);
+    background-image: -o-linear-gradient(top, #d10505, #d90505);
+    background-image: linear-gradient(to bottom, #ff2424, #ed1515);
     border-radius: 15px;
     font-family: sans-serif;
     color: #ffffff;
