@@ -1,6 +1,9 @@
 *{
     align: center;
 }
+body{
+    background: #3498db;
+}
 #url{
     align: center;
     size: 100px;
@@ -10,7 +13,9 @@
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    color: pink;
 }
+
 .btn {
     background: #ffd324;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
@@ -46,7 +51,7 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
-
+    background: yellowgreen;
 }
 .center{
     font-family: "American Typewriter";
