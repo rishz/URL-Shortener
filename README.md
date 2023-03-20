@@ -2,7 +2,7 @@
 
 `<a href="https://github.com/rishz/URL-Shortener/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-red.svg" alt="license"/>``</a>`
 
-A URL-Shortener created using Node-JS and synced with Firebase Database.
+A URL-Shortener created using Node-JS and synced with Firebase Database. Firebase is from Google Cloud Platform.
 
 ## Demo
 
