@@ -1,8 +1,8 @@
 *{
-    align: center;
+    align-content:center;
 }
 #url{
-    align: center;
+    align-content: center;
     size: 100px;
     height: 50px;
     width: 600px;
@@ -10,6 +10,9 @@
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+}
+#url:focus{
+    outline: none;
 }
 .btn {
     background: #ffd324;
@@ -26,16 +29,13 @@
     text-decoration: black;
     margin-top: 2%;
     margin-left: 43%;
+    transition: 500ms all ease;
 }
 
 .btn:hover {
     background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
+    transform: scale(1.1);
 }
 
 .mydiv{
@@ -51,4 +51,5 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+    text-align: center;
 }
