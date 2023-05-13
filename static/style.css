@@ -1,8 +1,8 @@
 *{
-    align: center;
+    align-items: center;
 }
 #url{
-    align: center;
+    align-items: center;
     size: 100px;
     height: 50px;
     width: 600px;
@@ -46,6 +46,8 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    background-color: #fab120;
+    width: fit-content;
 
 }
 .center{
