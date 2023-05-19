@@ -12,7 +12,7 @@
     margin-left: 25%;
 }
 .btn {
-    background: #ffd324;
+    background: #0000ff;
     background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
     background-image: -moz-linear-gradient(top, #ffd324, #fab120);
     background-image: -ms-linear-gradient(top, #ffd324, #fab120);
@@ -46,9 +46,11 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
+    background: #ff0000;
+    width: fit-content;
 
 }
 .center{
-    font-family: "American Typewriter";
+    font-family: "Times New Roman", Times, serif;
     font-size: 40px;
 }
