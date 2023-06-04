@@ -1,6 +1,19 @@
 *{
     align: center;
 }
+
+.container{
+    margin: auto;
+    background: #fbf4f4;
+    border-radius: 5%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    display: block;
+    align-self: center;
+
+}
 #url{
     align: center;
     size: 100px;
@@ -8,8 +21,7 @@
     width: 600px;
     font-family: Arial;
     font-size: 25px;
-    margin-top: 2%;
-    margin-left: 25%;
+    margin:auto
 }
 .btn {
     background: #ffd324;
@@ -25,7 +37,8 @@
     padding: 10px 20px 10px 20px;
     text-decoration: black;
     margin-top: 2%;
-    margin-left: 43%;
+    /* margin: auto; */
+
 }
 
 .btn:hover {
