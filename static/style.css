@@ -1,6 +1,9 @@
 *{
     align: center;
 }
+body{
+    background-color: rgb(126, 92, 92);
+}
 #url{
     align: center;
     size: 100px;
