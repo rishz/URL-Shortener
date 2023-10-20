@@ -9,7 +9,8 @@
     font-family: Arial;
     font-size: 25px;
     margin-top: 2%;
-    margin-left: 25%;
+    margin-left: 18%;
+    background-color: aqua;
 }
 .btn {
     background: #ffd324;
@@ -42,13 +43,14 @@
     align-self: center;
     align-items: center;
     font-family: "American Typewriter";
-    font-size:30px;
+    font-size:20px;
     font-style: inherit;
-    margin-top: 3%;
+    margin-top: 8%;
     margin-left: 25%;
+    background-color: #ffd324;
 
 }
 .center{
     font-family: "American Typewriter";
-    font-size: 40px;
+    font-size: 60px;
 }
