@@ -1,6 +1,10 @@
 *{
     align: center;
 }
+
+body{
+    background-color: rgb(93, 93, 236);
+}
 #url{
     align: center;
     size: 100px;
@@ -10,6 +14,7 @@
     font-size: 25px;
     margin-top: 2%;
     margin-left: 25%;
+    background-color: aqua;
 }
 .btn {
     background: #ffd324;
