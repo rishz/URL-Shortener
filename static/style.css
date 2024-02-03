@@ -40,6 +40,8 @@
 
 .mydiv{
     align-self: center;
+    background-color: #ffd324;
+    width: fit-content;
     align-items: center;
     font-family: "American Typewriter";
     font-size:30px;
