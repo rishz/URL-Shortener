@@ -1,11 +1,15 @@
 *{
     align: center;
 }
+
+#url_heading{
+    margin-bottom: 0cm;
+}
 #url{
     align: center;
     size: 100px;
     height: 50px;
-    width: 600px;
+    width: 710px;
     font-family: Arial;
     font-size: 25px;
     margin-top: 2%;
