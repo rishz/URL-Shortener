@@ -8,6 +8,9 @@ A URL-Shortener created using Node-JS and synced with Firebase Database.
 ## Demo
 ![out](https://cloud.githubusercontent.com/assets/20211622/23782082/be677c3e-0577-11e7-9851-4ceb3fda7367.gif)
 
+##Contributions 
+Please checkout the changes done by me (Uthkarsh singh), I have submitted a pull request on GitHub where I have explained all the changes.
+
 ## Why use it?
 
 Great tool for shortening a long URL to just 4 characters.
