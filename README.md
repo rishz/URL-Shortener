@@ -10,7 +10,7 @@ A URL-Shortener created using Node-JS and synced with Firebase Database.
 
 ## Why use it?
 
-Great tool for shortening a long URL to just 4 characters.
+Great tool for shortening a long URL to just 4 characters. It's customized.
 
 ## Features
 
