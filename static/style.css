@@ -1,54 +1,82 @@
-*{
-    align: center;
+/* Reset some default styles for consistency */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-#url{
-    align: center;
-    size: 100px;
-    height: 50px;
-    width: 600px;
-    font-family: Arial;
-    font-size: 25px;
-    margin-top: 2%;
-    margin-left: 25%;
+
+body {
+    font-family: Arial, sans-serif; /* Set a default font */
+    background: linear-gradient(to right, #74ebd5, #acb6e5); /* Beautiful gradient background */
+    color: #333; /* Darker text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    padding: 20px; /* Add padding to body */
 }
+
+.container {
+    text-align: center; /* Center text within container */
+    background: white; /* White background for the form */
+    padding: 40px; /* Add padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow for depth */
+    transition: transform 0.3s; /* Smooth transform on hover */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+.title {
+    font-size: 36px; /* Larger font size for title */
+    margin-bottom: 30px; /* Space below title */
+    color: #4a4a4a; /* Darker title color */
+}
+
+#url {
+    width: 100%; /* Full width of container */
+    max-width: 600px; /* Limit width */
+    height: 50px; /* Height of the input */
+    font-size: 18px; /* Slightly smaller font */
+    padding: 10px; /* Padding for input */
+    border: 2px solid #74ebd5; /* Border color matching background */
+    border-radius: 5px; /* Rounded input corners */
+    margin-bottom: 20px; /* Space below input */
+    transition: border 0.3s, box-shadow 0.3s; /* Smooth border transition */
+}
+
+#url:focus {
+    border-color: #acb6e5; /* Highlight border color on focus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on focus */
+    outline: none; /* Remove default outline */
+}
+
 .btn {
-    background: #ffd324;
-    background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
-    background-image: -moz-linear-gradient(top, #ffd324, #fab120);
-    background-image: -ms-linear-gradient(top, #ffd324, #fab120);
-    background-image: -o-linear-gradient(top, #ffd324, #fab120);
-    background-image: linear-gradient(to bottom, #ffd324, #fab120);
-    border-radius: 15px;
-    font-family: sans-serif;
-    color: #ffffff;
-    font-size: 29px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: black;
-    margin-top: 2%;
-    margin-left: 43%;
+    background: linear-gradient(to bottom right, #ff6a00, #ee0979); /* Gradient background */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    color: #ffffff; /* White text */
+    font-size: 20px; /* Font size */
+    padding: 10px 20px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s, transform 0.3s; /* Smooth background and transform transition */
 }
 
 .btn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-    text-decoration: none;
+    background: linear-gradient(to bottom right, #ee0979, #ff6a00); /* Reverse gradient on hover */
+    transform: translateY(-3px); /* Lift effect on hover */
 }
 
-.mydiv{
-    align-self: center;
-    align-items: center;
-    font-family: "American Typewriter";
-    font-size:30px;
-    font-style: inherit;
-    margin-top: 3%;
-    margin-left: 25%;
-
-}
-.center{
-    font-family: "American Typewriter";
-    font-size: 40px;
+.mydiv {
+    font-family: "American Typewriter", cursive; /* Custom font for the shortcode display */
+    font-size: 24px; /* Font size */
+    margin-top: 20px; /* Space above shortcode display */
+    color: #333; /* Dark text for contrast */
+    background: #f7f7f7; /* Light background for shortcode */
+    border: 1px solid #ddd; /* Light border */
+    padding: 15px; /* Padding for display */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
