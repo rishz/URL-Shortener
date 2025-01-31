@@ -29,7 +29,7 @@
 }
 
 .btn:hover {
-    background: #3cb0fd;
+    background: #008000;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
@@ -49,6 +49,6 @@
 
 }
 .center{
-    font-family: "American Typewriter";
-    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
 }

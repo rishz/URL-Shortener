@@ -2,21 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <script src="jquery.min.js"></script>
-    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
 
-    <title>URL Shortner</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Load jQuery First -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Your script.js (must be loaded after jQuery) -->
+    <script src="script.js" defer></script>
 </head>
 <body>
 
 <div class="center">
-    <h1 align="center"> URL Shortener</h1>
+    <h1 align="center">URL Shortener Project</h1>
 </div>
+
+<div class="input-container" align="center">
     <input id="url" type="text" placeholder="Enter URL" name="url">
     <br>
-    <input id="submit" type="submit" class="btn">
+    <input id="submit" type="submit" class="btn" value="Shorten URL">
+    <br>
     <div id="shortcode" class="mydiv"></div>
+</div>
 
 </body>
 </html>
